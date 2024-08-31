@@ -1,2 +1,1 @@
-# amirhosseinallami.com
-.
+# amirhossein allami

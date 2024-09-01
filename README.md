@@ -2,7 +2,6 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![GitHub stars](https://img.shields.io/github/stars/amirallami-code/amirhosseinallami.com?style=social)
-![GitHub issues](https://img.shields.io/github/issues/amirallami-code/amirhosseinallami.com)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/amirallami-code/amirhosseinallami.com)
 ![GitHub last commit](https://img.shields.io/github/last-commit/amirallami-code/amirhosseinallami.com)
 
@@ -24,7 +23,7 @@ A modern, responsive portfolio website showcasing my skills as a Frontend Develo
 - HTML5
 - CSS3
 - JavaScript (ES6+)
-- Tailwind CSS (optional)
+- Tailwind CSS
 - GitHub API
 
 ## 📦 Installation

@@ -1,9 +1,8 @@
 # Amirhossein Allami's Portfolio
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![GitHub stars](https://img.shields.io/github/stars/amirallami-code/amirhosseinallami.com?style=flat)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/amirallami-code/amirhosseinallami.com)
 ![GitHub last commit](https://img.shields.io/github/last-commit/amirallami-code/amirhosseinallami.com)
+![GitHub stars](https://img.shields.io/github/stars/amirallami-code/amirhosseinallami.com?style=flat&color=yellow)
 
 A modern, responsive portfolio website showcasing my skills as a Frontend Developer and Graphic Designer.
 

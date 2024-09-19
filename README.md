@@ -22,7 +22,6 @@ A modern, responsive portfolio website showcasing my skills as a Frontend Develo
 - HTML5
 - CSS3
 - JavaScript (ES6+)
-- Tailwind CSS
 - GitHub API
 
 ## Installation

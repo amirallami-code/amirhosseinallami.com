@@ -21,7 +21,7 @@ A modern, responsive portfolio website showcasing my skills as a Frontend Develo
 
 - HTML5
 - CSS3
-- JavaScript (ES6+)
+- JavaScript
 - GitHub API
 
 ## Installation

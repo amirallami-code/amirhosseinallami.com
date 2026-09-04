@@ -299,7 +299,7 @@ const Hero = () => {
 
     const packageJsonFile = `{
   "name": "amirallami.com",
-  "version": "2.3.1",
+  "version": "2.4.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
@@ -317,13 +317,13 @@ const Hero = () => {
     "@sentry/nextjs": "^10.15.0",
     "@tabler/icons-react": "^3.34.1",
     "@types/react-syntax-highlighter": "^15.5.13",
-    "@vercel/analytics": "^1.5.0",
-    "@vercel/speed-insights": "^1.2.0",
+    "@vercel/analytics": "^2.0.1",
+    "@vercel/speed-insights": "^2.0.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "lottie-react": "^2.4.1",
-    "lucide-react": "^0.540.0",
-    "motion": "^12.23.12",
+    "lottie-react": "^3.1.1",
+    "lucide-react": "^1.41.0",
+    "motion": "^13.2.0",
     "next": "^16.2.6",
     "ogl": "^1.0.11",
     "react": "^19.2.1",
@@ -331,21 +331,21 @@ const Hero = () => {
     "react-syntax-highlighter": "^16.1.0",
     "styled-components": "^6.1.19",
     "tailwind-merge": "^3.3.1",
-    "three": "^0.180.0",
+    "three": "^0.185.1",
     "three-globe": "^2.44.0",
-    "web-vitals": "^5.1.0"
+    "web-vitals": "^6.2.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
+    "@types/node": "^26.4.1",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "eslint": "^9",
+    "eslint": "^10.10.0",
     "eslint-config-next": "^16.0.7",
     "tailwindcss": "^4",
     "tw-animate-css": "^1.3.7",
-    "typescript": "^5"
+    "typescript": "^7.0.2"
   }
 }`;
 

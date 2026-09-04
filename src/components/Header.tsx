@@ -10,7 +10,7 @@ import {
     SheetTitle,
     SheetTrigger,
 } from "@/components/ui/sheet"
-import { LucideIcon, Menu, House, User, Code, CircleStar, Github, Mail } from 'lucide-react';
+import { LucideIcon, Menu, House, User, Code, CircleStar, Cat, Mail } from 'lucide-react';
 import { useThemeContext } from '@/components/ThemeProvider';
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -29,7 +29,7 @@ const navigationItems: NavigationItemType[] = [
     { id: 'about', label: 'About me', icon: User },
     { id: 'tech-stack', label: 'Tech Stack & Projects', icon: Code },
     { id: 'certificates', label: 'Certificates', icon: CircleStar },
-    { id: 'github', label: 'Github', icon: Github },
+    { id: 'github', label: 'Github', icon: Cat },
     { id: 'stay-in-touch', label: 'Stay in touch', icon: Mail },
 ];
 

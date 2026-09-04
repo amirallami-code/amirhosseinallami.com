@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useEffect, useState, useRef, useCallback } from 'react';
-import Lottie, { LottieRefCurrentProps } from 'lottie-react';
+import { Lottie, LottieHandle } from "lottie-react";
 
 interface CreattieAboutProps {
     animationURL: string;
@@ -17,7 +17,7 @@ const CreattieAnimation: React.FC<CreattieAboutProps> = ({animationURL ,classNam
     const [animationData, setAnimationData] = useState(null);
     const [loading, setLoading] = useState(true);
     const [isVisible, setIsVisible] = useState(false);
-    const lottieRef = useRef<LottieRefCurrentProps>(null);
+    const lottieRef = useRef<LottieHandle>(null);
     const containerRef = useRef<HTMLDivElement>(null);
 
     // Intersection Observer for lazy loading
@@ -96,16 +96,12 @@ const CreattieAnimation: React.FC<CreattieAboutProps> = ({animationURL ,classNam
         >
             <Lottie
                 lottieRef={lottieRef}
-                animationData={animationData}
+                src={animationData}
                 loop={loop}
                 autoplay={autoplay}
                 style={{
                     width: '100%',
-                    height: '100%'
-                }}
-                rendererSettings={{
-                    preserveAspectRatio: 'xMidYMid slice',
-                    progressiveLoad: true
+                    height: '100%',
                 }}
             />
         </div>

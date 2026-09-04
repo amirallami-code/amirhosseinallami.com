@@ -47,6 +47,21 @@ const TechStack = () => {
                     proficiency level and examples of how I&#39;ve used them.
                 </p>
 
+                <div className="md:flex hidden flex-wrap gap-4 justify-center text-xs pb-3">
+                    <div className="flex items-center gap-2">
+                        <span className="w-3 h-3 rounded-full bg-green-500"></span>
+                        <span className="text-gray-700 dark:text-gray-300">Advanced: Experienced, mentors</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                        <span className="w-3 h-3 rounded-full bg-blue-500"></span>
+                        <span className="text-gray-700 dark:text-gray-300">Intermediate: Works independently</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                        <span className="w-3 h-3 rounded-full bg-yellow-500"></span>
+                        <span className="text-gray-700 dark:text-gray-300">Beginner: Basic knowledge, learning</span>
+                    </div>
+                </div>
+
                 <div
                     className={`transition-all duration-1000 ease-in-out ${
                         expanded ? "max-h-none" : "max-h-screen lg:max-h-[550px] overflow-hidden"
@@ -88,7 +103,7 @@ const TechStack = () => {
                                             </div>
 
                                             <div>
-                                                <ProficiencyBadge level={skill.proficiency} />
+                                                <ProficiencyBadge level={skill.proficiency}/>
                                             </div>
 
                                             <div>
@@ -103,7 +118,8 @@ const TechStack = () => {
                                             </div>
 
                                             {skill.projects[0] ? (
-                                                <div className="w-full bg-gray-50 dark:bg-gray-700/20 py-3 rounded-b-xl">
+                                                <div
+                                                    className="w-full bg-gray-50 dark:bg-gray-700/20 py-3 rounded-b-xl">
                                                     <p className="text-sm font-medium text-gray-700 dark:text-gray-100 mb-2">
                                                         Projects:
                                                     </p>
@@ -113,8 +129,9 @@ const TechStack = () => {
                                                             <li key={project.name}>
                                                                 <Tooltip>
                                                                     <TooltipTrigger className="w-full h-full">
-                                                                        <Link href={project.url} className="w-full h-full flex flex-row gap-1.5 py-1.5 text-sm text-start items-center text-blue-700 dark:text-blue-400">
-                                                                            <ExternalLink className="w-4 h-4" />
+                                                                        <Link href={project.url}
+                                                                              className="w-full h-full flex flex-row gap-1.5 py-1.5 text-sm text-start items-center text-blue-700 dark:text-blue-400">
+                                                                            <ExternalLink className="w-4 h-4"/>
                                                                             {project.name}
                                                                         </Link>
                                                                     </TooltipTrigger>
@@ -135,10 +152,26 @@ const TechStack = () => {
                             </div>
                         ))}
                     </div>
+
+                    <div className="md:hidden flex flex-wrap gap-4 justify-start text-xs pb-3">
+                        <div className="flex items-center gap-2">
+                            <span className="w-3 h-3 rounded-full bg-green-500"></span>
+                            <span className="text-gray-700 dark:text-gray-300">Advanced: Experienced, mentors</span>
+                        </div>
+                        <div className="flex items-center gap-2">
+                            <span className="w-3 h-3 rounded-full bg-blue-500"></span>
+                            <span className="text-gray-700 dark:text-gray-300">Intermediate: Works independently</span>
+                        </div>
+                        <div className="flex items-center gap-2">
+                            <span className="w-3 h-3 rounded-full bg-yellow-500"></span>
+                            <span className="text-gray-700 dark:text-gray-300">Beginner: Basic knowledge, learning</span>
+                        </div>
+                    </div>
                 </div>
 
                 {!expanded && (
-                    <div className="absolute bottom-0 left-0 w-full h-72 bg-gradient-to-t from-background via-background/90 to-transparent flex justify-center items-end pb-6">
+                    <div
+                        className="absolute bottom-0 left-0 w-full h-72 bg-gradient-to-t from-background via-background/90 to-transparent flex justify-center items-end pb-6">
                         <Button
                             variant={"ghost"}
                             onClick={() => setExpanded(true)}

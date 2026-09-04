@@ -33,9 +33,9 @@ const Footer = () => {
         },
         {
             label: "TELEGRAM",
-            href: "https://t.me/khodeamiroo",
-            text: "t.me/@khodeamiroo"
-        }
+            href: "https://t.me/theonlyamirallami",
+            text: "t.me/@theonlyamirallami"
+        },
     ];
 
     const getLatestVersion = async () => {
